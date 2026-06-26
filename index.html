@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jitendra Patel | Premium Web Architect</title>
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <!-- Google Fonts -->
+    <link href="https://googleapis.com" rel="stylesheet">
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <nav>
+        <div class="logo">JP_CREATIONS</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Featured Work</a></li>
+            <li><a href="#portal">Admin Area</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Hi, I am <span>Jitendra Patel</span></h1>
+        <div class="typing-text">Professional Website Developer</div>
+        
+        <!-- Static Main Order Button -->
+        <a href="https://wa.me/6367439020" 
+           target="_blank" 
+           class="cta-btn">
+            <i class="fab fa-whatsapp"></i> Order Your Website Now
+        </a>
+    </section>
+
+    <!-- Information / About Section -->
+    <section id="about">
+        <h2 class="section-title">My Information</h2>
+        <div class="about-container">
+            <div class="about-profile">
+                <div class="avatar-frame">
+                    <!-- Replace 'profile.jpg' with your photo -->
+                    <img src="image/jitendra.jpeg" alt="Jitendra Patel Profile">
+                </div>
+            </div>
+            <div class="info-box">
+                <h3>High-Performance Web Developer</h3>
+                <p>Welcome! I specialize in crafting custom, lightning-fast, and highly visual digital systems optimized for dynamic client conversions. Whether you need a local corporate presence, clean modern styling, or highly customized workflow automations, I am dedicated to bringing your unique blueprint directly into reality.</p>
+                
+                <div class="meta-details">
+                    <div class="meta-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <strong>Education</strong>
+                            <p>B.Tech Computer Science Engineer</p>
+                        </div>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Location</strong>
+                            <p>Jodhpur, Rajasthan</p>
+                        </div>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <strong>Contact</strong>
+                            <!-- Tel protocol added here for auto phone keypad trigger -->
+                            <p><a href="tel:6367439020" style="color: inherit; text-decoration: none; font-weight: bold;">+91 6367439020</a></p>
+                        </div>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email ID</strong>
+                            <p>jitendrapatel6367@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Presentation -->
+    <section id="work">
+        <h2 class="section-title">Featured Production</h2>
+        <div class="work-display">
+            <i class="fas fa-car project-icon"></i>
+            <h3>Hanuman Motors Platform</h3>
+            <p>A pristine automotive workshop optimization layout system engineered for local business tracking, services presentation, and location analytics map sync routing features.</p>
+            <a href="https://hanumanmotors.netlify.app" target="_blank" class="project-link-btn">
+                Explore Live Demo <i class="fas fa-external-link-alt"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Premium Login Panel Area -->
+    <section id="portal">
+        <h2 class="section-title">Secure Portal</h2>
+        <div class="login-wrapper">
+            <div class="login-card">
+                <h3>Client Login</h3>
+                <form onsubmit="event.preventDefault(); alert('Security validation system online!');">
+                    <div class="input-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username / Email" required>
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="login-btn">Authenticate Access</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Static Floating WhatsApp Button (Left Side) -->
+    <a href="https://wa.me" 
+       target="_blank" 
+       class="whatsapp-floating-btn" 
+       title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Dynamic Welcome Trigger Popup Overlay -->
+    <div id="welcomeWidget" class="welcome-widget">
+        <i class="fas fa-robot"></i>
+        <div class="welcome-content">
+            <h4>System Welcome!</h4>
+            <p>Namaste! Thanks for visiting my platform. Click the dynamic buttons above to securely issue a direct development order over encrypted WhatsApp network instantly.</p>
+        </div>
+        <button class="close-widget" id="closeWidgetBtn"><i class="fas fa-times"></i></button>
+    </div>
+
+    <!-- Footer Copyright area -->
+    <footer>
+        <p>&copy; 2026 Jitendra Patel. Engineered with Absolute Code Precision.</p>
+    </footer>
+
+    <!-- External JS Link -->
+    <script src="script.js"></script>
+</body>
+</html>
